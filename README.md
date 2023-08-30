@@ -9,4 +9,12 @@ https://learn.microsoft.com/en-us/training/modules/provision-linux-virtual-machi
 ### Notes:
 
 * in the file vaiables.tf change the default value of the variable resource_group_name to your own resource group name
-* When copy-pasting commands, whenever there are <> , remove them after pasting. 
+* When copy-pasting commands, whenever there are <> , remove them after pasting.
+  
+  So for example the command:
+
+  terraform plan -out <terraform_plan>.tfplan
+
+  should be:
+
+  terraform plan -out terraform_plan.tfplan
